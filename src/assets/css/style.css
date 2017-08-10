@@ -1,0 +1,82 @@
+/*body{ background: red url(../images/222.jpg);}*/
+
+/* 头部 */
+.main-frm-header {
+    background: url(../images/hdbg.jpg) bottom center #b4c8de;
+    height: 66px;
+    color: #5f5d5d;
+}
+
+.main-frm-header .frm-header-inner {
+    margin: 0 auto;
+    width: 1200px;
+    *zoom:1}
+
+.main-frm-header .frm-header-inner:after,.main-frm-header .frm-header-inner:before {
+    display: table;
+    line-height: 0;
+    content: ""
+}
+
+.main-frm-header .frm-header-inner:after {
+    clear: both
+}
+
+.main-frm-header .frm-brand {
+    float: left;
+    padding-top: 17px
+}
+
+.main-frm-header .frm-brand h1 {
+    margin: 0;
+    line-height: 40px
+}
+
+.main-frm-header .frm-brand h1 a {
+    font-size: 34px;
+    color: #5f5d5d
+}
+
+.main-frm-header .frm-brand h1 a:hover,.main-frm-header .frm-brand h1 a:visited {
+    color: #5f5d5d
+}
+
+.main-frm-header .frm-brand small {
+    word-spacing: 8px;
+    font-size: 12px
+}
+
+.main-frm-header .frm-header-side {
+    float: right;
+    padding-top: 50px
+}
+
+.main-frm-header .frm-header-side .frm-back {
+    font-size: 14px;
+    color: #5f5d5d
+}
+
+.main-frm-header .frm-header-side .frm-back:hover {
+    color: #525050;
+    text-decoration: underline
+}
+.main-frm2 .frm-logo {
+    float: left;
+    height: 66px;
+    line-height: 66px;
+    overflow: hidden
+}
+
+.main-frm2 .frm-logo img {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.main-frm2 .frm-logo h2.logo-title {
+    color: #5f5d5d
+}
+
+.main-frm2 .main-ft-inner {
+    padding: 10px 0
+}
+.frm-header-link{ font-size: 18px; position: absolute; top: 20px; right: 10px;}

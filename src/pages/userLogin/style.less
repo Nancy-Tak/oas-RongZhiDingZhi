@@ -1,0 +1,43 @@
+//登录页重构ant样式
+.login-page{
+    //重构tabs
+    .ant-tabs{
+        margin:0;
+        width: 100%;
+        .ant-tabs-bar{
+            .ant-tabs-tab{
+                width: 50%;
+                margin-right:0;
+                border:none;
+                background: -webkit-linear-gradient(#f3f6fa, #dbdcdd); /* Safari 5.1 - 6.0 */
+                background: -o-linear-gradient(#f3f6fa, #dbdcdd); /* Opera 11.1 - 12.0 */
+                background: -moz-linear-gradient(#f3f6fa, #dbdcdd); /* Firefox 3.6 - 15 */
+                background: linear-gradient(#f3f6fa, #dbdcdd); /* 标准的语法 */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f6fa', endColorstr='#dbdcdd',GradientType=0 );  /*ie8,ie9 滤镜*/
+                -moz-box-shadow:1px 1px 1px #fff inset;
+                -webkit-box-shadow:1px 1px 1px #fff inset;
+                box-shadow:0px 1px 1px #fff inset;
+                .ant-tabs-tab-inner{
+                    color:#999;
+                }
+                &.ant-tabs-tab-active{
+                    background:#fff;
+                    filter: none;
+                    .ant-tabs-tab-inner{
+                        color:#333;
+                    }
+                }
+            }
+        }
+    }
+
+    .ant-search-btn{
+        &.vcode{
+            padding:0;
+        }
+    }
+}
+
+
+
+
